@@ -1,3 +1,6 @@
+# Напечатайте в консоль даты: вчера, сегодня, месяц назад
+# Превратите строку "01/01/17 12:10:03.234567" в объект datetime
+
 from datetime import datetime, date, timedelta
 
 d_yesterday = date.today() - timedelta(1)
